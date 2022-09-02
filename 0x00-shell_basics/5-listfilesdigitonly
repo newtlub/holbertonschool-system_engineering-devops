@@ -1,2 +1,2 @@
 #!/bin/bash
-dir .
+dir -l -a -n
