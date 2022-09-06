@@ -1,0 +1,2 @@
+#!/bin/bash
+su mkdir my_dir -m751
