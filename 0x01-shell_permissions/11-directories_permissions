@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -r a+x
+chmod -r a+x /0x01-shellpermissions/11-directories_permissions
