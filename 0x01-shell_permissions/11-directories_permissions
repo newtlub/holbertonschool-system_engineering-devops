@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -r o=rwx,go=rx holbertonschool-system_engineering-devops/0x01-shell_permissions/11-directories_permissions
+chmod -R  holbertonschool-system_engineering-devops/0x01-shell_permissions/11-directories_permissions/
