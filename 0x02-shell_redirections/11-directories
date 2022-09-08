@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d
+find ./* -name "*.js" |ls -l
