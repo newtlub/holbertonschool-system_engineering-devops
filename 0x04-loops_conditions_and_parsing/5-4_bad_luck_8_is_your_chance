@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#starting while loop checking for iterative variable. if var=4 echo badluck elif var=8 goodluck else best school
+n=0
+while [ $n -lt 10 ]
+do
+	if [ $n = 4 ]
+	then
+		echo "bad luck"
+	elif [ $n = 8 ]
+	then 
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	n=$(( n + 1 ))
+done
