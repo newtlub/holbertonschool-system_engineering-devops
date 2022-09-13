@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#n variable setup. while loop $n less than or equal to 20 does echo "$n" n=$((n++))
+n=1
+while [ $n -le 20 ]
+do
+	echo "$n"
+	case $n in
+		4)
+			echo "bad luck in China"
+			;;
+		9)
+			echo "bad luck in Japan"
+			;;
+		13)
+			echo "bad luck in Italy"
+			;;
+	esac
+	((n++))
+done
+
+	
