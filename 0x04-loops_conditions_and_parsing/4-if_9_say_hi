@@ -10,5 +10,5 @@ do
 	fi
 
 	echo "Best School"
-	n=$[ n + 1 ]
+	n=$(( n + 1 ))
 done
