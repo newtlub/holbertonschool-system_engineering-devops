@@ -3,7 +3,7 @@
 #greater than equal to 10. The while loop runs the cmd to display "Best School" for the line and adds 1 to n for each 
 #loop.
 n=1
-while [ $n -lt 10 ]
+while [ $n -le 10 ]
 do
 	echo "Best School" &
 	n=$[$n+1]
