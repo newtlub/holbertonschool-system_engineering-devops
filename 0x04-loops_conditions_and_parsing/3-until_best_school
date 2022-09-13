@@ -4,5 +4,5 @@ n=1
 until [ $n = 10 ]
 do
 	echo "Best School"
-	n=$((n++))
+	n=$((n+1))
 done
