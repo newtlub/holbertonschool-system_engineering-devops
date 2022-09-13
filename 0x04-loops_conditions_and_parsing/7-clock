@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#smelly stinky comment
+h=0
+n=0
+while [ $h -le 12 ]
+do 
+	echo "Hours: $h"
+	while [ n -le 60 ]
+	do 
+		echo "$n"
+		((n++))
+			if $n = 60
+			then
+			n=0
+			fi
+	done
+	if $n = 60
+	then	
+	((h++))
+	echo "Hours: $h"
+	fi
+done 
