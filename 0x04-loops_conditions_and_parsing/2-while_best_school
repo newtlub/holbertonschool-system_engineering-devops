@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Setting a variable to track iterations of the loop (n). The while loop is running so long as the value of n is not 
 #greater than equal to 10. The while loop runs the cmd to display "Best School" for the line and adds 1 to n for each 
 #loop.
