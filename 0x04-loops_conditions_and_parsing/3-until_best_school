@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#Establishing variable n. Starting until loop. Runs until $n = 11. Printing Best School and incrimenting n by 1.
 n=1
 until [ $n = 10 ]
 do
