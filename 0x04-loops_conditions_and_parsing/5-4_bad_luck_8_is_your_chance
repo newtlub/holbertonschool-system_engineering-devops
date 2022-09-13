@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #starting while loop checking for iterative variable. if var=4 echo badluck elif var=8 goodluck else best school
-n=0
+n=1
 while [ $n -lt 10 ]
 do
 	if [ $n = 4 ]
