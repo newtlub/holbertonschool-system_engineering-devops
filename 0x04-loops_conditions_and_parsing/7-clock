@@ -1,22 +1,18 @@
 #!/usr/bin/env bash
-#smelly stinky comment
+#the reason this works is because while loops only run so long as their conditions are true. so for ex. once the min
+#reach 60 the while loop stops running then the hour variable gets incrimented. then when the original while loop
+#starts again it will reset the min variable before going back into the minute while loop.
 h=0
-n=0
 while [ $h -le 12 ]
-do 
+do	
 	echo "Hours: $h"
-	while [ n -le 60 ]
-	do 
-		echo "$n"
-		((n++))
-			if $n = 60
-			then
-			n=0
-			fi
+	m=1
+	while [ $m -le 59 ]
+	do
+		echo "$m"
+		((m++))
 	done
-	if $n = 60
-	then	
+	#we only want the hours to incriment when we reach 60 min which happens while the min loop runs one last time 
+	#loop 59 which incriments making the loop end and triggering the last bit of the hour while loop
 	((h++))
-	echo "Hours: $h"
-	fi
-done 
+done
