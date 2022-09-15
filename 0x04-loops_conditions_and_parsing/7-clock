@@ -12,7 +12,5 @@ do
 		echo "$m"
 		((m++))
 	done
-	#we only want the hours to incriment when we reach 60 min which happens while the min loop runs one last time 
-	#loop 59 which incriments making the loop end and triggering the last bit of the hour while loop
 	((h++))
 done
