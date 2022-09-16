@@ -1,2 +1,3 @@
 #!/bin/bash
+#this script is just printing its own PID
 echo $$
