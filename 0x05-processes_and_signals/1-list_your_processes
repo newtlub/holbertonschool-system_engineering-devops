@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#this is a cmd to list currently running processes in their hierarchy.
 top
