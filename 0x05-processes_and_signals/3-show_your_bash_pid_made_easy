@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this command retrieves the process id of the processes with 'bash' in their name
+pidof bash
