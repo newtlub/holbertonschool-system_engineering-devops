@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-ps aux | grep -i 'bash' | head -2 | tail -1
+ps -C bash
 # shellcheck disable=SC2009
