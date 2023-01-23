@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-ps -C bash
+pstree bash
 # shellcheck disable=SC2009
