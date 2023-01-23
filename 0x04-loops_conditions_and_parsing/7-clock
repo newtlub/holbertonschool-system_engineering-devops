@@ -3,10 +3,11 @@
 #reach 60 the while loop stops running then the hour variable gets incrimented. then when the original while loop
 #starts again it will reset the min variable before going back into the minute while loop.
 h=0
+m=1
 while [ $h -le 12 ]
 do	
 	echo "Hours: $h"
-	m=1
+	
 	while [ $m -le 59 ]
 	do
 		echo "$m"
